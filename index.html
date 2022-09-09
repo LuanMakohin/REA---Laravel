@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REA - Laravel</title>
+</head>
+<body>
+    <h1>
+        <img src="./laravellogo.min.svg" alt="laravel-logo">
+        O que é laravel?
+    </h1>
+    <p>
+        Laravel é um framework para linguagem php, voltado para o desenvolvimento web.
+    </p>
+    <h2>
+        Mas o que é um framework?
+    </h2>
+    <p>
+        Frameworks são facilitadores de desenvolvimento para linguagens, como por exemplo, ao invés de criar
+        uma classe de conexão com um banco de dados, que requer tempo e atenção para sua construção. O
+        próprio framework cria esta classe, poupando o tempo de programador e aumentando sua produtividade.
+        Permitindo ao usuário destinar seu foco apenas em problemas de sua aplicação, sem se preocupar com problemas
+        de arquitetura.
+    </p>
+    <h2>
+        História do laravel
+    </h2>
+    <p>
+        Em junho de 2011, teve sua primeira beta lançada, sendo um framework open source com código hospedado no GitHub e 
+        com o propósito de ser uma alternativa para o CodeIgniter. Sendo seu criador, Taylor B. Otwell.
+    </p>
+    <h1>
+        Funcionamento do Laravel
+    </h1>
+    <img src="./mvc.png" alt="mvc">
+    <p>
+        Parte do fundamento MVC (Models, Views e Controllers), que toda tela de usuário (View), irá ser controlada por uma classe 
+        controladora (Controller), que será responsável por executar funções e trazer informações do banco estanciado nas classes
+        de modelo (Models).
+    </p>
+    <h1>
+        Recursos do Laravel
+    </h1>
+    <h3>Artisan</h3>
+    <p>
+        O Artisan, além de uma gíria interna dos usuários se auto denominarem artesões, serve como comando princípal para criação 
+        de recursos do laravel, deste criar Migrations, que serão abordadas futuramente, tanto para criar classes de uso mais frequente,
+        como as Controllers e as Models.
+    </p>
+    <h3>
+        Blade
+    </h3>
+    <p>
+        Template de visualizações, com ferramentas muito eficientes para HTML, como herança de telas e implementação de uma tela em outra,
+        com as diretivas @include e @yield.
+    </p>
+    <h3>Eloquent</h3>
+    <p>
+        Principal motivo de escolha do Laravel por muito usuários, se da pelo Eloquent, ferramente responsável por fazer querys no banco sem,
+        necessário digitar a SQL, que juntamente das Migrations, compõe o módulo de funções para interação com banco do Laravel.
+    </p>
+    <h3>
+        Módulo de autenticação
+    </h3>
+    <p>
+        O Larável, conta com um módulo de autenticação prórpio, que o usuário pode implementar com poucas ou nenhuma modificação, sendo muito eficiente
+        e tendo suas tabelas criadas a partir das Migrations.
+    </p>
+    <h3>
+        Migrations e Seeding
+    </h3>
+    <p>
+        O framework é capaz de gerar tabelas e SQLs, apenas com estes comandos, onde são declaradas as estrturas das classes e as tabelas são criadas automaticamente
+        por meio desta função, juntamente a ela esta atrelada a função de rollback e exclusão das tabelas, o que torna o versionamento do banco de dados muito simples.
+        E caso o usuário sinta a necessidade de popular sua tabelas, pode definir seedings, que são pré inserções de dados nas tabelas, para que sejam feitas inserções 
+        de forma automática na criação das tabelas.
+    </p>
+    <h1>
+        Conclusão
+    </h1>
+    <p>
+        Sendo considerado um dos melhores frameworks atuais para PHP, o Laravel se prova como uma ótima ferramenta de desenvolvimento e por isso mantém uma comunidade muito
+        ativa e unida, com uma documentação completa e curva de aprendizado relativamente pequena.
+    </p>
+    
+</body>
+</html>
